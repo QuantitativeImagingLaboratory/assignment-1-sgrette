@@ -1,1 +1,3 @@
+In the interpolation file the function linear_interpolation gives the intensity value of a given point in an image between 2 points on a linear path. The bilinear_interpolation function gives the intensity value of a given point in an image by taking the linear interpolation of 2 sets of points on a linear path and using the resultant intensity values to form a vertical linear interpolation to find the intensity value of the specified point.
 
+In the resample file the function nearest_neighbor returns a resized image using the nearest neighbor algorithm. The function bilinear_interpolation returns a resized image using the bilinear interpolation algorithm.
